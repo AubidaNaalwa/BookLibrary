@@ -1,0 +1,77 @@
+body{
+    
+    background-image: url('b4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: aliceblue;
+    
+}
+#container{
+    display:grid;
+    grid-template-columns: auto;
+    
+}
+
+#searchContainer{
+    display:grid;
+    grid-template-columns  : auto auto auto ;
+    justify-items: center;
+    font-size: xx-large;
+    grid-gap: 2rem;
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#text{
+    padding: 10px;
+    margin-left:5% ;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#grid-head{
+    
+    color: white;
+    font-size: 140%;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#logo{
+    font-size: xxx-large;
+}
+#personalLogo{
+    size: 20px;
+    height: 100%;
+    justify-self: end;
+}
+
+
+#bookSelector{  
+
+    color: black;
+    height: 100%;
+    width: 100%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+ }
+
+
+ #resultContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: left;
+ }
+
+ .books img{
+   width: 200px;
+   height: 200px;
+ }
